@@ -8,9 +8,9 @@ if __name__ == "__main__":
 
     if user_input == "1":
         print("Starting the Pneumonia Classifier...")
-        Pneumonia_classifier = PneumoniaMNISTClassifier('D:\Year_4\AMS I\AMLS_23-24_SN20121713\Dataset\pneumoniamnist.npz')
+        Pneumonia_classifier = PneumoniaMNISTClassifier('Dataset\pneumoniamnist.npz')
     elif user_input == "2":
         print("Starting the Path Classifier...")
-        Path_classifier = PathMNISTClassifier('')
+        Path_classifier = PathMNISTClassifier('Dataset\pathmnist.npz')
     else:
         print("Invalid choice. Exiting program...")
