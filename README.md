@@ -13,8 +13,14 @@ The only way to run the code is through the file "main,.py". Once the user runs 
 For the execution of the code to work, the user must have the following libraries installed in their Python Environment:
 
 -pip install numpy
+
 -pip install matplotlib
+
 -pip install scikit-metrics
+
 -pip install seaborn
+
 -pip install tensorflow
+
 -pip install keras
+
